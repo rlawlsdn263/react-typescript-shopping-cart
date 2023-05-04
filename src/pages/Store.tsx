@@ -6,7 +6,7 @@ export function Store() {
   return(
     <>
       <h1>Store</h1>
-      <Row>
+      <Row xs={1} md={2} lg={3} className="g-3">
         {
           //리스트렌더링
           storeItems.map(item => (
