@@ -1,0 +1,14 @@
+//prop의 타입 정하기
+type StoreItemProps = {
+  id: number,
+  name: string,
+  price: number,
+  imgUrl: string
+}
+
+export function StoreItem({id, name, price, imgUrl}: StoreItemProps) {
+  return(
+  <>
+  </>
+  )
+}
